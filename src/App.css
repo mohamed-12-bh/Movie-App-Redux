@@ -1,0 +1,66 @@
+.app {
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+.iframe {
+  margin: auto;
+  width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:20px;
+}
+
+.imgs {
+  max-width: 200px;
+  max-height: 250px;
+}
+.card {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px;
+  margin: 15px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(6, 16, 28, 1) 100%
+  );
+}
+
+.buttons {
+  display: flex;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+.stars {
+  border-radius: 2px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.justify-content-between {
+  margin-left: 800px;
+  width: 30%;
+}
+.btn-addd {
+  background-color: green;
+  position: absolute;
+  top: 0;
+}
+.btn-adde{
+  margin-right: 20px;
+  
+}
+.buttn{
+  }
